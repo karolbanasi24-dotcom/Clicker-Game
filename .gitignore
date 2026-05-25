@@ -42,7 +42,6 @@
 
 # Visual Studio cache directory
 .vs/
-*.slnx
 .vsconfig
 
 # Gradle cache directory
@@ -65,6 +64,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.slnx
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -116,6 +116,3 @@ InitTestScene*.unity*
 ignore.conf
 .plastic/
 
-
-# Unity Android™ files
-Android™*
