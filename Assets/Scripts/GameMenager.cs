@@ -1,20 +1,28 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 public class GameMenager : MonoBehaviour
 {
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI scoreText;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private int score;
+    [SerializeField] private Button Apple;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        score = 0;
+        UpdateScore();
+        Apple.onClick.AddListener(AddScore);
+    }
+    public void AddScore()
+    {
+        score++;
+        UpdateScore();
+    }
+    public void UpdateScore()
+    {
+        scoreText.text = "Score: " + score;
     }
 }
