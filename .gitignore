@@ -115,3 +115,8 @@ InitTestScene*.unity*
 # Unity Version Control meta files
 ignore.conf
 .plastic/
+
+
+# Unity Android™ files
+*.asset
+Andriod™.asset.meta
