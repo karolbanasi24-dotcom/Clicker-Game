@@ -113,4 +113,5 @@ InitTestScene*.unity*
 .vscode/
 
 # Unity Version Control meta files
-
+ignore.conf
+.plastic/
