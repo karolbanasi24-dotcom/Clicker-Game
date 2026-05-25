@@ -43,6 +43,7 @@
 # Visual Studio cache directory
 .vs/
 *.slnx
+.vsconfig
 
 # Gradle cache directory
 .gradle/
@@ -110,4 +111,3 @@ InitTestScene*.unity*
 
 # Visual Studio Code auto-generated files
 .vscode/
-.vsconfig/
