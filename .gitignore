@@ -119,4 +119,4 @@ ignore.conf
 
 # Unity Android™ files
 *.asset
-Andriod™.asset.meta
+Andriod™*
