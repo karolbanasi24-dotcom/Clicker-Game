@@ -4,15 +4,10 @@ using TMPro;
 
 public class ClickerUI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private TextMeshProUGUI Score_Counter;
 
-    // Update is called once per frame
-    void Update()
+    public void UdateUI(int amount)
     {
-        
+        Score_Counter.text = $"Score: {amount}";
     }
 }
