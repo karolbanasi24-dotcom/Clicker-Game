@@ -111,3 +111,6 @@ InitTestScene*.unity*
 
 # Visual Studio Code auto-generated files
 .vscode/
+
+# Unity Version Control meta files
+
